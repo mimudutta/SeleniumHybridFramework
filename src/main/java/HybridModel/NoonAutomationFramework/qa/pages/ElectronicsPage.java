@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
@@ -23,6 +24,7 @@ public class ElectronicsPage extends TestBase{
 	//PageFactory-ObjectRepository
 	
 	@FindBy(xpath = "//a[@href='/uae-en/mobiles']/div/div/div/img")
+	@CacheLookup
 	public WebElement mobileLogo;
 	
 	@FindBy(how = How.XPATH, using ="//div/p[contains(text(),'Featured Categories')]/ul[@class=\"qtg79b-4 gqguPq\"]" )
@@ -68,7 +70,10 @@ public class ElectronicsPage extends TestBase{
 	//div[@class='buttons']/ancestor-or-self::div
 	//label[text()='Password']/following::input[1]
 	*/	
+	
+	
 	@FindBy(xpath = "//div[@class=\"qtg79b-2 ghBbL\"]/child::ul/child::li/a[text()='Mobiles']")
+	@CacheLookup
 	public WebElement mobileLeftLink;
 	
 	

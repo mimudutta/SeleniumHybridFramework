@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Noon Sanity Suite" duration-ms="17197" started-at="2021-03-16T17:52:25Z" finished-at="2021-03-16T17:52:43Z">
+  <suite name="Default suite" duration-ms="29869" started-at="2021-03-24T11:53:18Z" finished-at="2021-03-24T11:53:48Z">
     <groups>
     </groups>
-    <test name="Functional Test" duration-ms="17197" started-at="2021-03-16T17:52:25Z" finished-at="2021-03-16T17:52:43Z">
-      <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@33afa13b]" name="setup" is-config="true" duration-ms="13158" started-at="2021-03-16T17:52:25Z" finished-at="2021-03-16T17:52:39Z">
+    <test name="Default test" duration-ms="29869" started-at="2021-03-24T11:53:18Z" finished-at="2021-03-24T11:53:48Z">
+      <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4445629]" name="setup" is-config="true" duration-ms="18812" started-at="2021-03-24T11:53:18Z" finished-at="2021-03-24T11:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mobilePageVerification1Test()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@33afa13b]" name="mobilePageVerification1Test" duration-ms="2448" started-at="2021-03-16T17:52:39Z" finished-at="2021-03-16T17:52:41Z">
+        <test-method status="PASS" signature="electronicsPageListVerificationTest()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4445629]" name="electronicsPageListVerificationTest" duration-ms="10462" started-at="2021-03-24T11:53:37Z" finished-at="2021-03-24T11:53:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobilePageVerification1Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@33afa13b]" name="tearDown" is-config="true" duration-ms="1513" started-at="2021-03-16T17:52:41Z" finished-at="2021-03-16T17:52:43Z">
+        </test-method> <!-- electronicsPageListVerificationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4445629]" name="tearDown" is-config="true" duration-ms="574" started-at="2021-03-24T11:53:47Z" finished-at="2021-03-24T11:53:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest -->
-    </test> <!-- Functional Test -->
-  </suite> <!-- Noon Sanity Suite -->
+      </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

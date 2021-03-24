@@ -193,6 +193,16 @@
 	</dependency>
 	
 	
+	<!--============= Reports and Logging =======================-->
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency>
+
+	
+	
   </dependencies>
 
   <build>
@@ -246,7 +256,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng_regression.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

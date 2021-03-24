@@ -1,7 +1,9 @@
 package HybridModel.NoonAutomationFramework.qa.pages;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -38,6 +40,16 @@ public class HomePage extends TestBase{
 	public WebElement electronics_top;
 
 
+	// method to get player ranking based on player name from web table
+	public String getRank(String pn){
+		
+		WebDriver driver = null;
+		WebElement rank=driver.findElement(By.xpath("(//a[text()='"+pn+"']/parent::div/parent::div/parent::div/child::div[@class=\"cb-col cb-col-16 cb-rank-tbl cb-font-16\"])[1]"));
+		 
+		String rk=rank.getText();
+	
+		return rk;
+		}
 	
 	
 	

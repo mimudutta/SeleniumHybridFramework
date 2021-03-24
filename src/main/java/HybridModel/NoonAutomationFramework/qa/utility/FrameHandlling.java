@@ -5,10 +5,8 @@ import org.openqa.selenium.WebElement;
 
 import HybridModel.NoonAutomationFramework.qa.base.TestBase;
 
-public class TestUtil extends TestBase{
+public class FrameHandlling extends TestBase{
 
-	public static long PAGE_LOAD_TIMEOUT=40;
-	public static long IMPLICITE_WAIT=10;
 	
 	
 	//===================For handeling iframes=======================

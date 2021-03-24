@@ -1,18 +1,14 @@
 package HybridModel.NoonAutomationFramework.qa.TestSuite;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import HybridModel.NoonAutomationFramework.qa.base.TestBase;
 import HybridModel.NoonAutomationFramework.qa.pages.ElectronicsPage;
 import HybridModel.NoonAutomationFramework.qa.pages.HomePage;
 import HybridModel.NoonAutomationFramework.qa.pages.MobilePage;
+
 
 public class HomePageTest extends TestBase{
 	
@@ -38,7 +34,7 @@ public class HomePageTest extends TestBase{
 		driver.quit();
 	}
 	
-	@DataProvider(name="")
+	
 	
 	@Test
 	public void electronicsPageListVerificationTest() {

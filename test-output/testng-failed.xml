@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest">
+      <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest">
         <methods>
-          <include name="electronicsPageListVerification"/>
-          <include name="setup"/>
+          <include name="dataProviderTest"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest -->
+      </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
