@@ -24,13 +24,17 @@ public class TestBase {
 	public static FileInputStream fis;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventHandler eventListener;
+	public String CONFIG_FILE_PATH_WIN="C:\\Users\\acer\\eclipse-workspace\\";
+	public String CONFIG_FILE_PATH_MAC="/Users/md/eclipse-workspace/";
+	public String CONFIG_FILE_PATH= CONFIG_FILE_PATH_WIN +
+					"NoonAutomationFramework/src/main/java/HybridModel/NoonAutomationFramework/qa/config/config.properties";
 	
 	
 	public TestBase() {
 		
 		try {
 			properties=new Properties();
-			fis=new FileInputStream("/Users/md/eclipse-workspace/NoonAutomationFramework/src/main/java/HybridModel/NoonAutomationFramework/qa/config/config.properties");
+			fis=new FileInputStream(CONFIG_FILE_PATH);
 			properties.load(fis);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
