@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="11.388" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="12.442" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9"/>
@@ -56,9 +56,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="electronicsPageListVerificationTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest" time="10.253"/>
-  <testcase name="mobilePageVerification1Test" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest" time="1.134"/>
-  <testcase name="dataProviderTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest" time="0.001"/>
+  <testcase name="electronicsPageListVerificationTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest" time="10.26"/>
+  <testcase name="mobilePageVerification1Test" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest" time="2.182"/>
+  <testcase name="dataProviderTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest" time="0"/>
   <testcase name="dataProviderTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest" time="0"/>
   <testcase name="dataProviderTest" classname="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest" time="0"/>
 </testsuite>
