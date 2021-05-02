@@ -17,6 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
 
   <dependencies>
 
@@ -98,9 +99,9 @@
     
     <!-- OpenCSV -->
     <dependency> 
-	<groupId>com.opencsv</groupId> 
-	<artifactId>opencsv</artifactId> 
-	<version>5.2</version> 
+		<groupId>com.opencsv</groupId> 
+		<artifactId>opencsv</artifactId> 
+		<version>5.2</version> 
 	</dependency> 
 	
 	
@@ -147,6 +148,8 @@
 	    <version>4.3.1</version>
 	    <scope>compile</scope>
 	</dependency>
+	
+	
 	
 	
 	<!--============= Apache POI related dependencies =======================-->
@@ -201,9 +204,8 @@
 	    <version>2.41.2</version>
 	</dependency>
 
-	
-	
   </dependencies>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

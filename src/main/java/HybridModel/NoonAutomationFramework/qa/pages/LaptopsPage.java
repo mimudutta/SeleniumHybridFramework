@@ -1,6 +1,5 @@
 package HybridModel.NoonAutomationFramework.qa.pages;
 
-import javax.xml.datatype.DatatypeFactory;
 
 import org.openqa.selenium.support.PageFactory;
 

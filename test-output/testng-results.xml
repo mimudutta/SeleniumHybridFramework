@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Noon Regression Suite" duration-ms="66270" started-at="2021-03-24T17:54:53Z" finished-at="2021-03-24T17:55:59Z">
+  <suite name="Noon Regression Suite" duration-ms="57789" started-at="2021-04-17T15:05:30Z" finished-at="2021-04-17T15:06:27Z">
     <groups>
     </groups>
-    <test name="Functional Test" duration-ms="66270" started-at="2021-03-24T17:54:53Z" finished-at="2021-03-24T17:55:59Z">
+    <test name="Functional Test" duration-ms="57789" started-at="2021-04-17T15:05:30Z" finished-at="2021-04-17T15:06:27Z">
       <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="11917" started-at="2021-03-24T17:55:26Z" finished-at="2021-03-24T17:55:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="6065" started-at="2021-04-17T15:06:00Z" finished-at="2021-04-17T15:06:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="2" started-at="2021-03-24T17:55:38Z" data-provider="getDataExcel" finished-at="2021-03-24T17:55:38Z">
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="0" started-at="2021-04-17T15:06:06Z" data-provider="getDataExcel" finished-at="2021-04-17T15:06:06Z">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="511" started-at="2021-03-24T17:55:38Z" finished-at="2021-03-24T17:55:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="111" started-at="2021-04-17T15:06:06Z" finished-at="2021-04-17T15:06:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="9038" started-at="2021-03-24T17:55:39Z" finished-at="2021-03-24T17:55:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="13895" started-at="2021-04-17T15:06:06Z" finished-at="2021-04-17T15:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="1" started-at="2021-03-24T17:55:48Z" data-provider="getDataExcel" finished-at="2021-03-24T17:55:48Z">
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="1" started-at="2021-04-17T15:06:20Z" data-provider="getDataExcel" finished-at="2021-04-17T15:06:20Z">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="539" started-at="2021-03-24T17:55:48Z" finished-at="2021-03-24T17:55:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="133" started-at="2021-04-17T15:06:20Z" finished-at="2021-04-17T15:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="9922" started-at="2021-03-24T17:55:48Z" finished-at="2021-03-24T17:55:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="setup" is-config="true" duration-ms="7008" started-at="2021-04-17T15:06:20Z" finished-at="2021-04-17T15:06:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="1" started-at="2021-03-24T17:55:58Z" data-provider="getDataExcel" finished-at="2021-03-24T17:55:58Z">
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="dataProviderTest" duration-ms="1" started-at="2021-04-17T15:06:27Z" data-provider="getDataExcel" finished-at="2021-04-17T15:06:27Z">
           <params>
             <param index="0">
               <value>
@@ -105,35 +105,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataProviderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="504" started-at="2021-03-24T17:55:58Z" finished-at="2021-03-24T17:55:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest@3cc2931c]" name="tearDown" is-config="true" duration-ms="108" started-at="2021-04-17T15:06:27Z" finished-at="2021-04-17T15:06:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.LaptopsPageTest -->
       <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="setup" is-config="true" duration-ms="11282" started-at="2021-03-24T17:55:13Z" finished-at="2021-03-24T17:55:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="setup" is-config="true" duration-ms="7298" started-at="2021-04-17T15:05:51Z" finished-at="2021-04-17T15:05:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mobilePageVerification1Test()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="mobilePageVerification1Test" duration-ms="1214" started-at="2021-03-24T17:55:24Z" finished-at="2021-03-24T17:55:25Z">
+        <test-method status="PASS" signature="mobilePageVerification1Test()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="mobilePageVerification1Test" duration-ms="1201" started-at="2021-04-17T15:05:58Z" finished-at="2021-04-17T15:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobilePageVerification1Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="tearDown" is-config="true" duration-ms="536" started-at="2021-03-24T17:55:25Z" finished-at="2021-03-24T17:55:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest@59d016c9]" name="tearDown" is-config="true" duration-ms="109" started-at="2021-04-17T15:05:59Z" finished-at="2021-04-17T15:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- HybridModel.NoonAutomationFramework.qa.TestSuite.MobileSearchTest -->
       <class name="HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="setup" is-config="true" duration-ms="9378" started-at="2021-03-24T17:54:53Z" finished-at="2021-03-24T17:55:02Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="setup" is-config="true" duration-ms="10873" started-at="2021-04-17T15:05:30Z" finished-at="2021-04-17T15:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="electronicsPageListVerificationTest()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="electronicsPageListVerificationTest" duration-ms="10359" started-at="2021-03-24T17:55:02Z" finished-at="2021-03-24T17:55:12Z">
+        <test-method status="PASS" signature="electronicsPageListVerificationTest()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="electronicsPageListVerificationTest" duration-ms="10223" started-at="2021-04-17T15:05:40Z" finished-at="2021-04-17T15:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- electronicsPageListVerificationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="tearDown" is-config="true" duration-ms="549" started-at="2021-03-24T17:55:12Z" finished-at="2021-03-24T17:55:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HybridModel.NoonAutomationFramework.qa.TestSuite.HomePageTest@4b5a5ed1]" name="tearDown" is-config="true" duration-ms="177" started-at="2021-04-17T15:05:51Z" finished-at="2021-04-17T15:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
