@@ -26,7 +26,7 @@ public class TestBase {
 	public static WebEventHandler eventListener;
 	public String CONFIG_FILE_PATH_WIN="C:\\Users\\acer\\eclipse-workspace\\";
 	public String CONFIG_FILE_PATH_MAC="/Users/md/eclipse-workspace/";
-	public String CONFIG_FILE_PATH= CONFIG_FILE_PATH_WIN +
+	public String CONFIG_FILE_PATH= CONFIG_FILE_PATH_MAC +
 					"NoonAutomationFramework/src/main/java/HybridModel/NoonAutomationFramework/qa/config/config.properties";
 	
 	
